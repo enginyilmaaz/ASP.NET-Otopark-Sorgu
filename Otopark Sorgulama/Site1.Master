@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="OtoparkSorgulama.Site1" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+    
+
+
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+      <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="page-header">
+				<h1 style="text-align:center">
+					&nbsp;Otopark Sorgulama
+				</h1>
+			</div>
+			   
+
+     <div class="jumbotron"   style="background-color:#005cad;color:white;border-style:solid;border-width: 1px;border-color:white;padding:15px;">
+				
+              <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server" />
+       
+
+    </div>
+		
+			
+		</div>
+	</div>
+</div>
+
+    </div>
+    </form>
+</body>
+</html>
